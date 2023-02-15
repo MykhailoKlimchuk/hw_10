@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  padding: 20px;
+  border: 5px solid;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+  margin: 20px;
+}
+
+.item-small {
+  width: 100px;
+  height: 100px;
+}
+
+.item-large {
+  width: 400px;
+  height: 400px;
+}
+
+.horizontal-rectangle {
+  width: 400px;
+  height: 190px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.margin-auto {
+  margin: 0 auto;
+  width: max-content;
+}
+
+.clearfix {
+  clear: both;
+}
